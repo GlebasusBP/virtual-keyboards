@@ -26,7 +26,7 @@ const config = {
             template: 'index.html',
             chunks: ['main'],
             inject: 'body',
-            minify: false
+            //minify: false
         }),
 
         // Add your plugins here
