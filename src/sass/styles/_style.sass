@@ -1,0 +1,81 @@
+body
+  background: #6fa5e7
+
+.wrapper
+  width: 1024px
+  display: flex
+  flex-direction: column
+  align-items: center
+  row-gap: 40px
+  margin: 0 auto
+  padding-top: 100px
+
+.result
+  width: 600px
+  height: 100px
+
+.keyboard
+  width: 910px
+  display: flex
+  flex-direction: column
+  align-items: center
+  // flex-wrap: wrap
+  // column-gap: 10px
+  row-gap: 10px
+  font-size: 24px
+  &__line
+    display: flex
+    column-gap: 10px
+
+  &__keys
+    display: flex
+    justify-content: space-between
+    column-gap: 10px
+
+  &__letters
+    display: flex
+    flex-wrap: wrap
+    row-gap: 10px
+
+
+.key
+  display: flex
+  align-items: center
+  justify-content: center
+  width: 50px
+  height: 50px
+  border-radius: 8px
+  background: #bee2f5
+  cursor: pointer
+  &__active
+    background-color: rgb(75, 219, 183)
+    
+
+.space
+  width: 390px
+
+.backspace
+  width: 130px
+
+.tab
+  width: 60px
+
+.del
+  width: 60px
+
+.capslock
+  width: 140px
+
+.enter
+  width: 100px
+
+.shift-l
+  width: 190px
+
+.ctrl-l
+  width: 90px
+
+
+.info
+  font-size: 25px
+  color: #fff
